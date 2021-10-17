@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RecyclerViewAppHW</string>
+    <string-array name="Names">
+        <item>sara</item>
+        <item>ahmed</item>
+        <item>ali</item>
+        <item>shahad</item>
+        <item>abdullah</item>
+        <item>mohammed</item>
+        <item>yara</item>
+        <item>amal</item>
+        <item>rana</item>
+        <item>yasin</item>
+        <item>sari</item>
+        <item>mada</item>
+        <item>rahaf</item>
+        <item>khalid</item>
+        <item>hamed</item>
+    </string-array>
+</resources>
