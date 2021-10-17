@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerViewApplication</string>
+    <string name="Big_Burger">Big Meal</string>
+</resources>
