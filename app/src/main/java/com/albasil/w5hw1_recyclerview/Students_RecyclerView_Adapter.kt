@@ -9,13 +9,17 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 
 
-//inherited from main class
+//inherited from main class           studentArrayList = arrayListOf<Students>()
 class Students_RecyclerView_Adapter(private val studentList:List<Students>):
         RecyclerView.Adapter<StudentAdapter.ViewHolder>(){
 
 
     private var images = intArrayOf(R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,R.drawable.student,)
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StudentAdapter.ViewHolder {
+
+
+
+
+     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StudentAdapter.ViewHolder {
 
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.card_layout, parent,false)
@@ -33,7 +37,11 @@ class Students_RecyclerView_Adapter(private val studentList:List<Students>):
         val student=studentList[position]
         holder.id_student.text = " ID# ${student.id.toString()}"
         holder.name_studenyt.text = "${student.name} "
+
+
+
         holder.id_image.setImageResource(images[position])
+
 
     }
 
