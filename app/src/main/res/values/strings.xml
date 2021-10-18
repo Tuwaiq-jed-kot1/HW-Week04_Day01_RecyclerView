@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Flowers</string>
+    <string-array name="flowers_name" >
+    <item> </item>
+        <item> rose </item>
+        <item> shasta daisy</item>
+        <item> Jaborosa</item>
+        <item> lotus</item>
+        <item> flax flower</item>
+        <item> Calendula officinalis</item>
+        <item> Gaillardia aristata</item>
+        <item> blabk eyed susan</item>
+        <item> honestey</item>
+        <item> Magnolia</item>
+        <item> Desert rose</item>
+        <item> Moonflower</item>
+        <item> Ice Plant</item>
+        <item> Aster amellus</item>
+        <item> Jamesia americana</item>
+        <item> Osteospermum</item>
+        <item> Erigeron glabellus</item>
+   </string-array>
+
+</resources>
